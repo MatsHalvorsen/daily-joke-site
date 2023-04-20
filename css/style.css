@@ -34,3 +34,8 @@ body, html {
     display: none;
     margin-bottom: 1rem;
 }
+
+#joke-text {
+    color: rgb(255, 255, 255); 
+    padding: 7px;
+}
