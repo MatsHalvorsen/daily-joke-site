@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Joke Site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="assets/pexels-maksim-goncharenok-4562023-720x1280-30fps.mp4" type="video/mp4">
+    </video>
+    <div class="main-content">
+        <h1 class="mb-5 text-center">Daily Joke Site</h1>
+        <div id="joke" class="card mx-auto">
+            <div class="card-body">
+                <p id="joke-text" class="card-text"></p>
+            </div>
+        </div>
+        <div class="text-center">
+            <button id="new-joke" class="btn btn-primary mt-3">Get a new joke</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
